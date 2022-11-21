@@ -3,6 +3,7 @@ import Header from '../../components/Header'
 import Menu from '../../components/Menu'
 import Rodape from '../../components/Rodape'
 import styles from './Home.module.scss'
+import Galeria from '../../components/Galeria'
 
 export default function Home (){
     return (
@@ -16,6 +17,9 @@ export default function Home (){
 
                 </secton>
             </main>
+            <div className={styles.galeria}> 
+                <Galeria />
+            </div>
             <Rodape />
             
         </>
