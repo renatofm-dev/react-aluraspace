@@ -4,6 +4,7 @@ import Menu from '../../components/Menu'
 import Rodape from '../../components/Rodape'
 import styles from './Home.module.scss'
 import Galeria from '../../components/Galeria'
+import Populares from '../../components/Populares'
 
 export default function Home (){
     return (
@@ -16,10 +17,12 @@ export default function Home (){
 
 
                 </secton>
-            </main>
-            <div className={styles.galeria}> 
+                <div className={styles.galeria}> 
                 <Galeria />
-            </div>
+                <Populares/>
+                </div>
+            </main>
+
             <Rodape />
             
         </>
